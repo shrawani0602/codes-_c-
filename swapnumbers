@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{   int n1,n2,temp=0;
+    cout<<"enter two no. to swap";
+    cin>>n1>>n2;
+    temp=n1;
+    n1=n2;
+    n2=temp;
+    
+    cout<<"swapped no."<<n1<<" "<<n2;
+    return 0;
+}
